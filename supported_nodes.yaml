@@ -1417,3 +1417,7 @@ node_packs:
 
   - name: comfyui-bfsnodes
     version: "1.0.0"
+
+  - name: rgthree-comfy
+    version: "1.0.2512112053"
+    web_directory: comfyui
