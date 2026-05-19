@@ -1022,9 +1022,6 @@ node_packs:
   - name: feedback-sampler
     version: "2.0.0"
 
-  - name: vewd
-    version: "1.7.2"
-
   - name: comfyui-workflow-prettier
     version: "1.0.5"
     web_directory: web
