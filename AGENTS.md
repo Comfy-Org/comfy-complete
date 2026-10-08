@@ -30,7 +30,7 @@ A curated distribution of ComfyUI — vetted, version-pinned, tested bundle of c
 Contributors add/update entries in `supported_nodes.yaml` only. CI validates everything.
 
 ### Scripts (not agents)
-All validation is done via transparent, auditable scripts in `scripts/add-node/`:
+Node-pack entry validation is done via transparent, auditable scripts in `scripts/add-node/` (test workflows are validated separately — see Test Workflows below):
 - `check-node.sh` — All-in-one orchestrator
 - `suggest-labels.py` — Pattern-matches code to suggest labels
 - `check-license.py` — Exhaustive license checking (node + deps + models)
